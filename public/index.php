@@ -13,7 +13,8 @@ echo view(
         "content" => [
             "users" => view('templates->users.template', [
                 "users" => $users,
-                "pages" => $pages
+                "entityCount" => $entityCount,
+                "page" => $page,
             ])->render(),
             
 
